@@ -124,7 +124,7 @@ public class Scanner<I> implements ResourceProvider, ClassProvider<I> {
 	 * @param prefix   The prefix of the resource names to match.
 	 * @return The resources that were found.
 	 */
-	public Collection<LoadableResource> getResources(String prefix) {
+	public Collection<LoadableResource> getResourcesByPrefix(String prefix) {
 		List<LoadableResource> result = new ArrayList<>();
 		for (LoadableResource resource : resources) {
 			String fileName = resource.getFilename();
@@ -143,7 +143,7 @@ public class Scanner<I> implements ResourceProvider, ClassProvider<I> {
 	 * @param suffixes The suffixes of the resource names to match.
 	 * @return The resources that were found.
 	 */
-	public Collection<LoadableResource> getResources(String... suffixes) {
+	public Collection<LoadableResource> getResourcesBySuffixes(String... suffixes) {
 		List<LoadableResource> result = new ArrayList<>();
 		for (LoadableResource resource : resources) {
 			String fileName = resource.getFilename();

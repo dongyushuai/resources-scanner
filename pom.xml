@@ -5,9 +5,9 @@
 
 	<groupId>com.fixiu</groupId>
 	<artifactId>resources-scanner</artifactId>
-	<version>1.0.0-RELEASE</version>
+	<version>1.0.1-RELEASE</version>
 	<packaging>jar</packaging>
-	<description>A tool scan for resources and classes in classpaths</description>
+	<description>A tools for scans resources and classes.</description>
 
 	<name>resources-scanner</name>
 	<url>https://github.com/dongyushuai/resources-scanner</url>
